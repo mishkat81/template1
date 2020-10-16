@@ -1,0 +1,201 @@
+
+
+
+
+/*---------Header Top Section----------*/
+.header-top-section{
+    background-color: #218838 ;
+    font-size: smaller;
+    color: silver;
+    padding: 5px 0;
+    box-shadow: 2px 3px 8px #000000;
+    margin-bottom: px;
+}
+
+/*---------/Header Top Section----------*/
+
+
+/*---------Nav Section----------*/
+.navbar{
+    box-shadow: 2px 3px 8px #000000;
+    margin-bottom: 8px;
+}
+
+/*---------/Nav Section----------*/
+
+
+/*---------Services Section----------*/
+
+#service-section{
+    background-color: #218838;
+}
+.bar{
+    border: 2px solid silver;
+    width: 300px;
+    margin: auto;
+}
+.bar1{
+    background-color: #218838;
+    margin:-10px auto;
+    border-radius: 50%;
+    width: 78px;
+    height: 16px;
+    border: 2px solid silver;
+}
+
+.mystyle-fa{
+    width: 100px;
+    height: 100px;
+    color: silver;
+    border: 2px solid #218838;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #c82333;
+    margin-bottom: 0px;
+}
+/*---------/Services Section----------*/
+
+#visit-section{
+    width: 100%;
+    height: 380px;
+    background: url('img/img01.jpg');
+    background-attachment: fixed;
+}
+
+/*---------About us Section----------*/
+
+.bar2{
+    border: 2px solid rgb(19, 18, 18);
+    width: 250px;
+    margin: auto;
+}
+.bar3{
+    background-color: #ffffff;
+    margin:-10px auto;
+    border-radius: 50%;
+    width: 78px;
+    height: 16px;
+    border: 2px solid rgb(24, 21, 21);
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.box img{
+    position: absolute;
+    z-index: 100;
+    width: 120px;
+    height: 120px;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    top: -2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-overlay{
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background-color: #218838;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.box:hover .box-overlay{
+    height: 100%;
+}
+.box-body h4{
+    color: #ffffff;
+}
+.box-body h6{
+    color: silver;
+}
+.box-body p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.line{
+    border-bottom: 1px solid #218838;
+    width: 200px;
+    margin: auto;
+}
+
+.box-overlay h4{
+    color: #ffffff;
+}
+.box-overlay h6{
+    color: silver;
+}
+.box-overlay p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 0px;
+}
+
+.line1{
+    border-bottom: 1px solid #c82333;
+    width: 200px;
+    margin: auto;
+}
+.text{
+    padding-top: 40px;
+}
+/*---------/About us Section----------*/
+
+
+/*---------Contact us Section----------*/
+.bar4{
+    border: 2px solid #ffffff;
+    width: 490px;
+    margin: auto;
+}
+.bar5{
+    background-color: #343a40;
+    margin:-10px auto;
+    border-radius: 50%;
+    width: 78px;
+    height: 16px;
+    border: 2px solid #ffffff;
+}
+.form-control{
+    background-color: #343a40;
+    
+}
+
+
+/*---------/Contact us Section----------*/
+
+
+
+
+
+
+@media screen and (max-width: 767.80px){
+    .mystyle{
+        text-align: center;
+        font-size: smaller;
+    }
+    #visit-section h4{
+        font-size: 30px;
+    }
+    #visit-section p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:575px){
+    #head-bottom h2{
+        font-size: 40px;
+    }
+    #visit-section h4{
+        font-size: 20px;
+    }
+    #visit-section p{
+        font-size: 14px;
+    }
+}
+
